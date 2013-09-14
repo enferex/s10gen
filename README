@@ -1,0 +1,28 @@
+What
+====
+This script generates UPU S10 numbers which is what the USPS uses for tracking
+certain mail.
+
+
+Usage Examples
+==============
+Example 1) Generate 42 sequential Tracking Codes starting at 10.
+           The Service Indicator will be pseudo-random.
+./s10gen.py -s 10 -n 42
+
+
+Exmple 2) Generate 10 random tracking values.
+          The Service Indicator and serial number will be pseudo-random.
+./s10gen.py -n 10
+
+
+Sources
+=======
+    * http://en.wikipedia.org/wiki/Tracking_number
+    * http://en.wikipedia.org/wiki/S10_(UPU_standard)
+    * http://pls.upu.int/document/2011/an/cep_c_4_gn_ep_4-1/src/d008_ad00_an01_p00_r00.pdf
+
+
+Contact
+=======
+Matt Davis (enferex) mattdavis9@gmail.com
